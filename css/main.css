@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+.main__title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #23AA49;
+}
+
+.main__link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #23AA49;
+  text-decoration: none;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.mx-1 {
+  margin: 10px auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-beetwen {
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  body {
+    background-color: #fff;
+  }
+  .search form {
+    background-color: #f3f5f7;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 13px 12px;
+    border-radius: 20px;
+    display: flex;
+  }
+  .search form img {
+    width: 19px;
+    height: 19px;
+  }
+  .search form input {
+    border: 0;
+    outline: 0;
+    margin-left: 8px;
+    width: 100%;
+    background-color: #f3f5f7;
+  }
+  .banners {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .banner__item {
+    background-image: url("/assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 20px auto;
+    width: 90%;
+    height: 156px;
+    position: relative;
+  }
+  .banner__item-intro {
+    background-color: #23AA49;
+    border-radius: 38px 16px 16px 38px;
+    padding: 15px 20px;
+    max-width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 0;
+    color: #fff;
+  }
+  .banner__item-intro h3 {
+    font-size: 12px;
+    font-size: 500;
+    margin: 10px 0;
+  }
+  .banner__item-intro h1 {
+    font-size: 20px;
+  }
+  .banner__item-intro button {
+    background-color: #fff;
+    color: #23AA49;
+    padding: 10px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .categories {
+    padding: 0 15px;
+  }
+  .categories__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  .categories__item p {
+    font-size: 14px;
+    text-align: center;
+    margin: 11px auto;
+  }
+  .categories__item-img {
+    background-color: #e9e9e9;
+    width: 73px;
+    height: 73px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .categories__item-img img {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .products {
+    padding: 0 15px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+  }
+  .product__wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product__card-item {
+    padding: 15px 15px;
+    border-radius: 16px;
+    background-color: #f3f5f7;
+    max-width: 163px;
+  }
+  .product__card-item img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .product__card-intro {
+    margin-top: 27px;
+  }
+  .product__card-intro-item img {
+    height: 97px;
+  }
+  .product__card-intro-item h3 {
+    font-size: 14px;
+  }
+  .product__card-intro-item .price {
+    color: #ff324b;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .product__card-intro-add .add__card-item {
+    width: 37px;
+    height: 37px;
+    background-color: #23AA49;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .menu__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+  .menu__item img {
+    width: 24px;
+    height: 24px;
+  }
+  .menu__item-cart .menu__item-img {
+    position: absolute;
+    top: -40%;
+    left: 45%;
+  }
+  .menu__item-cart .menu__item-img img {
+    width: 45px;
+    height: 45px;
+  }
+  .menu__item-cart .menu__item-img p {
+    position: absolute;
+    bottom: -20%;
+    left: 35%;
+    padding: 2px;
+    background-color: #ff324b;
+    color: #fff;
+    border-radius: 100%;
+  }
+}
